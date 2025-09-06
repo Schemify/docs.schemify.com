@@ -32,6 +32,7 @@ jobs:
       - name: Build
         env:
           NODE_ENV: production
+          BASE_URL: /docs.schemifyjs.com/
         run: npm run build
 
       - name: Upload artifact

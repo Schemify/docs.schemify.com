@@ -2,9 +2,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import dotenv from "dotenv";
 
-const isProd = process.env.NODE_ENV === "production";
+dotenv.config();
 
 const config: Config = {
   title: "Schemify",
@@ -24,7 +24,7 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: "/docs.schemifyjs.com/",
-  baseUrl: isProd ? "/docs.schemifyjs.com/" : "/",
+  baseUrl: process.env.BASE_URL || "/",
   // baseUrl: "/",
 
   // GitHub pages deployment config.
