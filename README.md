@@ -1,41 +1,76 @@
-# Website
+<p align="center">
+  <a href="https://schemify.com" target="blank">
+    <img src="https://schemifyjs.github.io/schemifyjs.com/assets/img/logos/schemify-logo.svg" width="140" alt="Schemify Logo" />
+  </a>
+</p>
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  CLI tool for scaffolding <a href="https://nodejs.org" target="_blank">Node.js</a> projects and artifacts following software architecture best practices.
+</p>
 
-## Installation
+<p align="center">
+  <!-- Versión del paquete principal en NPM -->
+  <a href="https://www.npmjs.com/package/@schemifyjs/cli" target="_blank">
+    <img src="https://img.shields.io/npm/v/@schemifyjs/cli.svg" alt="NPM Version" />
+  </a>
+  <!-- Licencia -->
+  <a href="https://github.com/schemify/schemify.com/blob/main/LICENSE" target="_blank">
+    <img src="https://img.shields.io/npm/l/@schemifyjs/cli.svg" alt="Package License" />
+  </a>
+  <!-- Descargas mensuales -->
+  <a href="https://www.npmjs.com/package/@schemifyjs/cli" target="_blank">
+    <img src="https://img.shields.io/npm/dm/@schemifyjs/cli.svg" alt="NPM Downloads" />
+  </a>
+  <!-- Estado de CI/CD (ejemplo, pendiente configurar en tu repo) -->
+  <!-- <a href="https://github.com/schemify/schemify.com/actions" target="_blank">
+    <img src="https://img.shields.io/github/actions/workflow/status/schemify/schemify.com/ci.yml?branch=main" alt="CI Status" />
+  </a> -->
+  <!-- Comunidad (placeholder, aún no existe Discord oficial) -->
+  <!-- <a href="https://discord.gg/XXXXXXX" target="_blank">
+    <img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord" />
+  </a> -->
+  <!-- Backers y Sponsors (Open Collective, opcional a futuro) -->
+  <!-- <a href="https://opencollective.com/schemify#backer" target="_blank">
+    <img src="https://opencollective.com/schemify/backers/badge.svg" alt="Backers on Open Collective" />
+  </a>
+  <a href="https://opencollective.com/schemify#sponsor" target="_blank">
+    <img src="https://opencollective.com/schemify/sponsors/badge.svg" alt="Sponsors on Open Collective" />
+  </a> -->
+  <!-- Donaciones (ejemplo, no activo aún) -->
+  <!-- <a href="https://paypal.me/tuusuario" target="_blank">
+    <img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/>
+  </a> -->
+  <!-- Social (ejemplo, tu cuenta de Twitter/X) -->
+  <!-- <a href="https://twitter.com/schemify" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/schemify.svg?style=social&label=Follow"/>
+  </a> -->
+</p>
 
-```bash
-yarn
-```
+<!--
+Notas:
+- CI/CD → deberías configurarlo en GitHub Actions (ejemplo: `ci.yml`).
+- Discord → placeholder hasta que crees un servidor oficial de comunidad.
+- Open Collective → útil si piensas recibir sponsors/backers.
+- Donaciones → PayPal u otra plataforma opcional.
+- Social → puedes usar tu cuenta personal o crear @schemify.
+-->
 
-## Local Development
 
-```bash
-yarn start
-```
+# 📚 Documentación Oficial de Schemify
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Bienvenido a la documentación oficial de **Schemify**, un ecosistema diseñado para construir microservicios **robustos, escalables y alineados con buenas prácticas de arquitectura moderna**.  
 
-## Build
+## 🚀 Qué es Schemify
 
-```bash
-yarn build
-```
+Schemify es un **framework modular** construido sobre **NestJS** y potenciado con:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- **Domain-Driven Design (DDD)** y **Arquitectura Hexagonal (Ports & Adapters)**.  
+- Comunicación **sincrónica con gRPC** y **asíncrona con Kafka**.  
+- **Prisma ORM + PostgreSQL** como capa de persistencia.  
+- Preparado para **Docker** y entornos **Kubernetes-ready**.  
+- **CLI propia** (`@@schemifyjs/cli`) para generar microservicios y componentes de forma automatizada.  
 
-## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<p align="center">
+  <em>Schemify Docs</em> – El camino hacia microservicios simples, robustos y escalables ✨
+</p>
