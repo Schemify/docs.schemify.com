@@ -68,7 +68,7 @@ Schemify es un **framework modular** construido sobre **NestJS** y potenciado co
 - Comunicación **sincrónica con gRPC** y **asíncrona con Kafka**.  
 - **Prisma ORM + PostgreSQL** como capa de persistencia.  
 - Preparado para **Docker** y entornos **Kubernetes-ready**.  
-- **CLI propia** (`@@schemifyjs/cli`) para generar microservicios y componentes de forma automatizada.  
+- **CLI propia** (`@schemifyjs/cli`) para generar microservicios y componentes de forma automatizada.  
 
 
 <p align="center">
